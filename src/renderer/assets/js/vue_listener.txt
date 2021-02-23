@@ -1,0 +1,12 @@
+js文件监听数据格式
+
+传图片到id=imshow
+{
+    "command": "imshow",
+    "data": 图片base64段,
+}
+
+危险行为:
+{
+    "command": "dangerous_act",
+}
